@@ -1,0 +1,22 @@
+.form input {
+    width: 93%;
+    border-radius: 8px;
+    border: 1px solid blue;
+    padding: 10px 15px;
+    margin-top: 10px;
+}
+
+.form {
+    text-align: center;
+    width: 30%;
+    margin: 10% auto;
+}
+
+.form button {
+    border: 0;
+    background-color: rgba(0, 0, 255, 0.542);
+    padding: 10px 85px;
+    border-radius: 8px;
+    margin-left: 5%;
+    margin-top: 10px;
+}

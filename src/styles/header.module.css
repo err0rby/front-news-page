@@ -1,0 +1,56 @@
+.mainHead {
+    background-color: #333;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+}
+
+.leftName, .rightList {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftName p {
+    color: azure;
+    font-size: 32px;
+}
+
+.rightList ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.rightList li {
+    margin-left: 15px;
+}
+
+.nav {
+    transition: 1s;
+}
+
+.nav:hover {
+    border-bottom: 2px solid azure;
+}
+
+.rightList a {
+    text-decoration: none;
+    color: azure;
+}
+
+.rightList a:focus {
+    text-decoration: underline 2px solid azure;
+} 
+
+/* .rightList a:hover {
+    text-decoration: underline 2px solid azure;
+} */
+
+.lin {
+    text-decoration: none;
+}
+
+.prost {
+    margin-left: 10px;
+}
